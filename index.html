@@ -19,9 +19,18 @@
   </div>
   <div class="contenu">
     <p>lol le contenu</p>
+    <div id="gallerie"> //rajouter la barre pour ajouter une image
+      <img src="Images/oui.png" alt="image oui" id="imageGalerie">
+      <p id="displayImageNb"> Image x sur x </p>
+      <div id="boutonGalerie">
+	<button onClick="update(-1)">Image precedente</button>
+	<button onClick="update(1)">Image Suivante</button>
+      </div>
+    </div>
   </div>
   <div id="pied">
-    <p>oe (c) • <a href="legal.html">Conditions legales</a> • <a href="remboursement.html">Remboursements</a> • <a href="contacts.html">Contacts</a> </p>
+    <p>oe © • <a href="legal.html">Conditions legales</a> • <a href="remboursement.html">Remboursements</a> • <a href="contacts.html">Contacts</a> </p>
   </div>
+  <script src="gallerie.js"></script>
 </body>
 </html>
