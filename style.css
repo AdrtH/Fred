@@ -2,19 +2,49 @@ body{
     margin: 0px;
 }
 
-.image{
-    background-color: black;
+/* MENU */
+
+.navigation {
     display: flex;
+    align-items: center;
+    background-color: #DDDDDD;
+    position: static;
 }
 
-.image img{
-    width: 100%;
+.selectionne {
+    color: #00106bb2;
+    font-weight: bold;
 }
 
-.baspage{
-    display: flex;
+a:hover {
+    text-decoration: none;
 }
 
-.baspage img{
+/* PIED DE PAGE */
+
+#piedpage img{
     width: 100%;
     }
+
+
+#piedpage {
+    display: flex;
+    top: 100%;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    position: relative;
+}
+
+#piedpage p {
+    position: absolute;
+    top: 20%;
+    left: 55%;
+}
+
+#piedpage > p, #piedpage > p > a {
+    color: black;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
