@@ -24,3 +24,14 @@ a:hover {
     color: #FFFFFF;
     margin-bottom: 0px;
 }
+
+#imageGalerie {
+    height: 200px;
+    width: auto;
+}
+
+#gallerie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
