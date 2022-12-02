@@ -48,3 +48,31 @@ a:hover {
     font-weight: bold;
 }
 
+/* CARTE DE PRODUITS */
+
+.produits {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5%;
+}
+
+.card{
+    width: 85%;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.card-img-top:hover{
+    position: absolute;
+    opacity: 0%;
+}
