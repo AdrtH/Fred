@@ -7,6 +7,35 @@
     <title>FRED</title>
 </head>
 <body>
-    
+  <div class="navigation">
+      <a class="navbar-brand" href="#">FRED</a>
+      <div class="navbar-nav">
+        <a class="nav-item selectionne" href="#"> Accueil <span class="sr-only"> (current) </span></a>
+        <a class="nav-item " href="presentation.html"> Présentation </a>
+        <a class="nav-item " href="produits.html"> Produits </a>
+        <a class="nav-item " href="contacts.html"> Contacts </a>
+        <a class="nav-item " href="notice.html"> Notice </a>
+      </div>
+  </div>
+  <div class="contenu">
+    <p>lol le contenu</p>
+    <div id="gallerie">
+      <div id="input">
+      <input type="text" id="inputBar">
+      <button onClick="appendImage()"> Ajouter </button>
+      </div>
+      <br>
+      <img src="Images/oui.png" alt="image oui" id="imageGalerie">
+      <p id="displayImageNb"> Image x sur x </p>
+      <div id="boutonGalerie">
+	<button onClick="update(-1)">Image precedente</button>
+	<button onClick="update(1)">Image Suivante</button>
+      </div>
+    </div>
+  </div>
+  <div id="pied">
+    <p>oe © • <a href="legal.html">Conditions legales</a> • <a href="remboursement.html">Remboursements</a> • <a href="contacts.html">Contacts</a> </p>
+  </div>
+  <script src="gallerie.js"></script>
 </body>
 </html>
