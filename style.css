@@ -1,3 +1,9 @@
+body{
+    margin: 0px;
+}
+
+/* MENU */
+
 .navigation {
     display: flex;
     align-items: center;
@@ -14,16 +20,63 @@ a:hover {
     text-decoration: none;
 }
 
-#pied {
+/* PIED DE PAGE */
+
+#piedpage img{
+    width: 100%;
+    }
+
+
+#piedpage {
     display: flex;
-    justify-content: center;
-    background-color: black;
+    top: 100%;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    position: relative;
 }
 
-#pied > p, #pied > p > a {
-    color: #FFFFFF;
-    margin-bottom: 0px;
+#piedpage p {
+    position: absolute;
+    top: 20%;
+    left: 55%;
 }
+
+#piedpage > p, #piedpage > p > a {
+    color: black;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+/* CARTE DE PRODUITS */
+
+.produits {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5%;
+}
+
+.card{
+    width: 85%;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.card-img-top:hover{
+    position: absolute;
+    opacity: 0%;
+}
+
 
 #imageGalerie {
     height: 200px;
