@@ -95,7 +95,7 @@ a:hover {
 
 .card-img-top{
     overflow:hidden;
-    height: 200px;
+    height: 100%;
 }
 
 .produits img:hover{
@@ -133,17 +133,6 @@ button{
     border: 1px solid black;
 }
 
-
-
-.align{
-    display: flex;
-    justify-content: space-between;
-}
-
-.contenu{
-    margin-top: 3%;
-}
-
 .présentation{
     width: 40%;
     display: flex;
@@ -157,6 +146,16 @@ button{
     margin-bottom: 4%;
 }
 
+.imageglacons{
+    width: 100%;
+}
+
+.livraison{
+    text-align: center;
+}
+
+/* CONTENU RELATIF A TOUTES LES PAGES */
+
 .contenu p{
     font-size: 120%;
 }
@@ -165,10 +164,9 @@ h2{
     margin-bottom: 4%;
 }
 
-
-
-.imageglacons{
-    width: 100%;
+.align{
+    display: flex;
+    justify-content: space-between;
 }
 
 .contenu{
@@ -186,6 +184,3 @@ h1{
     margin-bottom: 2%;
 }
 
-.livraison{
-    text-align: center;
-}
