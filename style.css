@@ -28,14 +28,16 @@ a:hover {
     color: #00106bb2;
 }
 
+
 /* PIED DE PAGE */
 
 #piedpage img{
     width: 100%;
-    }
+}
 
 
 #piedpage {
+    padding: 20px;
     display: flex;
     top: 100%;
     align-items: center;
@@ -95,4 +97,9 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+
+.contenu{
+    margin-left: 20px;
 }
