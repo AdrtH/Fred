@@ -20,6 +20,14 @@ a:hover {
     text-decoration: none;
 }
 
+.navbar-nav{
+    display: block;
+}
+
+.navbar-brand{
+    color: #00106bb2;
+}
+
 /* PIED DE PAGE */
 
 #piedpage img{
