@@ -178,6 +178,14 @@ h2{
     margin-bottom: 3%;
 }
 
-ul{
+ul, ol{
     font-size: 120%;
+}
+
+h1{
+    margin-bottom: 2%;
+}
+
+.livraison{
+    text-align: center;
 }
