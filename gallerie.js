@@ -1,4 +1,4 @@
-let liste = ["Images/oui.png","Images/Dimitri-Mendeleiev.png","https://imgs.search.brave.com/aMxza_7Zisq3zaJ9dWcSrPXJcklazcZMxGRQI5mvuxs/rs:fit:780:928:1/g:ce/aHR0cDovLzEuYnAu/YmxvZ3Nwb3QuY29t/Ly00ZTNwQ2lfMHZV/SS9VVGw4aU9nUW9t/SS9BQUFBQUFBQUJ4/OC9VbVNDRXNpTjdY/by9zMTYwMC9uaWtv/bGEtdGVzbGEuanBl/Zw"];
+let liste = ["Images/glacon2.png","Images/glacons2.png","Images/glacon1.jpg"];
 let current = 0;
 
 
