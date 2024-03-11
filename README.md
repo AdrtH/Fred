@@ -1,2 +1,2 @@
 # Fred
- A promotionnal website for frozen boiled water
+ A promotional website for frozen boiled water (School Project)
